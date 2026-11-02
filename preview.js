@@ -1,0 +1,1 @@
+document.querySelector("form")?.addEventListener("submit", function(event) { event.preventDefault(); const status = document.querySelector(".form-status"); if (status) status.textContent = "Signups are not available here yet."; });
